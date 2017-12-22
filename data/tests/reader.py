@@ -1,4 +1,4 @@
-from impuestos_internos import ImpuestosInternosHelper
+from data.lib.impuestos_internos import ImpuestosInternosHelper
 
 class Reader():
     def __init__(self, file):
@@ -28,5 +28,5 @@ class Reader():
             print('\n')
         print('%s casos validados de %s' % (case_result, len(lines)))
 if __name__ == '__main__':
-    r = Reader('casos.txt')
+    r = Reader('../data/casos.txt')
     r.generate_test()
