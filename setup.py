@@ -7,21 +7,17 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='impuestos_internos_helper',
+    name='Impuestos Internos Helper',
     version='1.0',
-    description=' Generador de codigo de control V7 para Impuestos Internos.',  # Required
+    description=' Generador de codigo de control V7 para Impuestos Internos.',
     url='https://github.com/drkpkg/codigo_control',
-    author='drkpkg',  # Optional
+    author='drkpkg',
     author_email='daniel.uremix@gmail.com',
-    classifiers=[  # Optional
-        'Development Status :: 5 - Stable',
-
-        # Indicate who your project is intended for
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
-
-        'License :: OSI Approved :: PyPA License',
-
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
@@ -36,7 +32,7 @@ setup(
         'dev': ['check-manifest'],
         'test': ['coverage'],
     },
-    package_data={  # Optional
+    package_data={
         'sample': ['casos.txt'],
     },
     data_files=[('data', ['data/lib/impuestos_internos.py'])],
