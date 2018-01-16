@@ -11,4 +11,4 @@ Uso
 
 Si deseas agregarlo como dependencia de pip solo agrega la linea:
 
-**Impuestos-Internos-Helper==1.0**
+**Impuestos-Internos-Helper==1.0.1**
