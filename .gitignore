@@ -2,3 +2,4 @@ Impuestos_Internos_Helper.egg-info
 build/
 .idea/
 dist/
+*.pyc
