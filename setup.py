@@ -8,7 +8,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='Impuestos Internos Helper',
-    version='1.0',
+    version='1.0.1',
     description=' Generador de codigo de control V7 para Impuestos Internos.',
     url='https://github.com/drkpkg/codigo_control',
     author='drkpkg',
